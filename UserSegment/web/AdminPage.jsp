@@ -27,5 +27,18 @@
             
             %>
             
+             <TABLE BORDER="1">
+            <TR>
+                <TH>User Id</TH>
+                <TH></TH>
+                
+            </TR>
+            <% while(resultSet.next()){ %>
+            <TR>
+                <TD> <%= resultSet.getString(1) %></td>
+                
+            </TR>
+            <% } %>
+        </TABLE>
     </body>
 </html>
