@@ -1,1 +1,2 @@
 This repository is for mashup code
+Please enter some value in the DB, otherwise it will show NullPointerException as the values will not get initialized properly.
